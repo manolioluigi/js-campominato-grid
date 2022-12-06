@@ -35,6 +35,15 @@ footer{
     font-size: 20px;
 }
 
+.col-4 img{
+    width: 8vh;
+}
+
+button{
+
+    width: 100px;
+}
+
 /*Utility*/
 
 .height-full{
@@ -43,4 +52,12 @@ footer{
 
 .background-blue{
     background-color: rgb(0, 89, 255);
+}
+
+.padding-sides-30{
+    padding: 0px 30px 0px 30px;
+}
+
+.margin-left-2{
+    margin-left: 2px;
 }

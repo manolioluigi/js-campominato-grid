@@ -30,7 +30,6 @@ bottone.addEventListener(`click`, function(){
             cubetto.innerText = i;
             griglia.appendChild(cubetto);
             
-
         }
 
     }
