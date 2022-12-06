@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+}
+
+main{
+    height: 85vh;
+    overflow-y: auto;
+    background-color: aqua;
+}
+
+footer{
+    height: 5vh;
+}
+
+#griglia{
+    width: 1000px;
+    margin: 5vh auto 5vh auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cubetto{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+/*Utility*/
+
+.height-full{
+    height: 100%;
+}
+
+.background-blue{
+    background-color: rgb(0, 89, 255);
+}
