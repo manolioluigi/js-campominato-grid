@@ -17,24 +17,19 @@ function creaCubetto(){
 bottone = document.getElementById("play");
 bottone.addEventListener(`click`, function(){
 
-    //Controlliamo che non esista già una griglia
-    if(flag == false){
+    griglia.innerHTML = " ";
 
         for(let i = 1; i<=100; i++){
             
             const cubetto = creaCubetto();
             cubetto.addEventListener('click', function(){
-                this.classList.add('background-blue');
+                this.classList.toggle('background-blue');
                 console.log("Ho cliccato la casella: "+i);
             })
             cubetto.innerText = i;
             griglia.appendChild(cubetto);
             
         }
-
-    }
-
-    flag = true;
 
 }
 );
